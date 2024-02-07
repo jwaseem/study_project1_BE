@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 4000;
 const { MongoClient } = require('mongodb');
-const uri = 'mongodb://localhost:27017'; // Update with your MongoDB connection string
+const uri = 'mongodb://103.173.18.212:27017';
 const client = new MongoClient(uri);
 
 app.use(bodyParser.json());
